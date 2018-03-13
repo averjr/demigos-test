@@ -1,5 +1,9 @@
 1. Run manage.py makemigrations.
 2. To create fixture:
-```run python grub_cur.py > fixture.json```
+```
+run python grub_cur.py > fixture.json
+```
 3. To load it:
-```python manage.py loaddata ../fixture.json```
+```
+python manage.py loaddata ../fixture.json
+```
