@@ -1,0 +1,15 @@
+{% for one in pairs %}
+    <li>{{ one }}</li>
+{% endfor %}
+
+<form action="/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+
+<script>
+setTimeout(function(){
+   window.location.reload(true);
+}, 10000);
+</script>
